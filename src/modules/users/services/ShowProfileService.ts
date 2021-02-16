@@ -24,7 +24,7 @@ class UpdateProfileService {
       throw new AppError('User not found.');
     }
 
-    return { ...user, password: '' };
+    return user;
   }
 }
 
